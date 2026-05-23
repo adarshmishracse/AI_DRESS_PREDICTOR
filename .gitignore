@@ -1,6 +1,7 @@
 # --- GLOBAL SECRETS (NEVER UPLOAD THESE) ---
 .env
 serviceAccountKey.json
+firebaseConfig.js
 *.pem
 *.key
 
