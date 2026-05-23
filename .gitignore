@@ -1,0 +1,31 @@
+# --- GLOBAL SECRETS (NEVER UPLOAD THESE) ---
+.env
+serviceAccountKey.json
+firebaseConfig.js
+*.pem
+*.key
+
+# --- PYTHON BACKEND (ai_engine) ---
+ai_engine/venv/
+ai_engine/env/
+ai_engine/__pycache__/
+ai_engine/*.pyc
+ai_engine/serviceAccountKey.json
+
+# --- REACT FRONTEND (frontend) ---
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+frontend/coverage/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- SYSTEM FILES ---
+.DS_Store
+Thumbs.db
